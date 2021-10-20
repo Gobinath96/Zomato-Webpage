@@ -92,6 +92,51 @@ body {
   color: #1d3557;
 }
 
+/* Flexxx */
+
+.restaurant_text {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.restaurant_images_container {
+  width: 100%;
+}
+
+.restaurant_images_row_one,
+.restaurant_images_row_two {
+  width: 100%;
+  display: flex;
+  gap: 3px;
+}
+
+.restaurant_images_row_one {
+  align-items: baseline;
+  margin-bottom: 3px;
+}
+
+.restaurant_image_1,
+.restaurant_image_4 {
+  width: 100%;
+  height: 120px;
+}
+
+.restaurant_image_2,
+.restaurant_image_3 {
+  width: 100%;
+  height: 200px;
+}
+
+.restaurant_1,
+.restaurant_2,
+.restaurant_3,
+.restaurant_4 {
+  width: 100%;
+  height: 100%;
+}
+
 @media (min-width: 768px) {
   .explore_menu_lists {
     margin-top: 45px;
@@ -103,6 +148,11 @@ body {
   #pizza_card {
     margin-top: -20px;
     margin-bottom: 30px;
+  }
+
+  .explore_menu_view_more{
+    display: flex;
+    justify-content: center;
   }
 
   .explore_menu_container {
@@ -135,6 +185,17 @@ body {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+  }
+
+  .restaurant_container {
+    display: flex;
+    align-items: center;
+  }
+
+  .restaurant_text {
+    width: 100%;
+    font-size: 40px;
+
   }
 }
 
